@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Каталог</title>
+    </head>
+    <body>
+        <header class="page-header">
+            <img src="#" alt="Седона логотип">
+            <nav class="header-navigation">
+                <ul class="navigation-list">
+                    <li class="navigation-item">
+                        <a class="navigation-link" href="index.html">Главная</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a class="navigation-link" href="#">О Седоне</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a class="navigation-link navigation-link-current" href="#">Гостиницы</a>
+                    </li>
+                </ul>
+                <ul class="navigation-list navigation-user">
+                    <li class="navigation-item">
+                        <a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span></a>
+                    </li>
+                    <li class="navigation-item">
+                        <a class="navigation-link" href="#"><span class="visually-hidden">Избранное</span></a>
+                    </li>
+                    <li class="navigation-item">
+                        <a class="navigation-link button-all" href="#">Хочу сюда</a>
+                    </li>
+                </ul>
+            </nav>
+        </header> 
+        <main class="main-catalog">
+            <section class="catalog-filters">
+                    <h2 class="catalog-filters-title">Гостиницы Седоны</h2>
+                    <ul class="breadcrumbs">
+                        <li class="breadcrumbs-item">
+                            <a href="index.html" class="breadcrumbs-link">
+                                <img src="#" alt="Главная">
+                            </a>
+                        </li>
+                        <li class="breadcrumbs-item">
+                            <a href="#" class="breadcrumbs-link">Гостиницы</a>
+                        </li>
+                    </ul>
+                    <fieldset class="catalog-filters-group">
+                        <legend class="catalog-filters-title">Инфраструктура:</legend>
+                        <ul class="catalog-filters-list">
+                            <li class="catalog-filters-item">
+                                <label class="controls">
+                                    <input type="checkbox" name="pool" id="pool" class="control-input" checked>
+                                    Бассейн
+                                </label>
+                            </li>
+                            <li class="catalog-filters-item">
+                                <label class="controls">
+                                    <input type="checkbox" name="parking" id="parking" class="control-input" checked>
+                                    Парковка
+                                </label>
+                            </li>
+                            <li class="catalog-filters-item">
+                                <label class="controls">
+                                    <input type="checkbox" name="wi-fi" id="wi-fi" class="control-input">
+                                    Wi-Fi
+                                </label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset class="catalog-filters-group">
+                        <legend class="catalog-filters-title">Тип жилья:</legend>
+                        <ul class="catalog-filters-list">
+                            <li class="catalog-filters-item">
+                                <label class="controls">
+                                    <input type="radio" name="hotel-type" id="hotel" class="control-input" checked>
+                                    Гостиница
+                                </label>
+                            </li>
+                            <li class="catalog-filters-item">
+                                <label class="controls">
+                                    <input type="radio" name="hotel-type" id="motel" class="control-input">
+                                    Мотель
+                                </label>
+                            </li>
+                            <li class="catalog-filters-item">
+                                <label class="controls">
+                                    <input type="radio" name="hotel-type" id="appartment" class="control-input">
+                                    Аппартаменты
+                                </label>
+                            </li>
+                        <ul>
+                    </fieldset>
+                    <fieldset class="catalog-filters-group">
+                        <legend class="catalog-filters-title">Стоимость, ₽:</legend>
+                        <ul class="catalog-filters-list">
+                            <li class="catalog-filters-item">
+                                <label for="from">От</label>
+                                <input type="text" name="from" id="from" value="0">
+                            </li>
+                            <li class="catalog-filters-item">
+                                <label for="to">До</label>
+                                <input type="text" name="to" id="to" value="9000">
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <button type="submit" class="button-apply button-all">Применить</button>
+                    <button type="button" class="button-reset button-all">Сбросить</button>
+            </section>
+            <section class="catalog-cards">
+                <header class="catalog-cards-header">
+                    <h2 class="visually-hidden">Карточки Гостиниц</h2>
+                    <p class="Hotels-find">
+                        Найдено гостиниц:<span class="hotels-find-number">38</span>
+                    </p>
+                    <select name="" id="">
+                        <option value="">Сначала дешевые</option>
+                    </select>
+                </header>
+            </section>
+            <section class="main-subscribe">
+                <h2 class="main-subscribe-title">Подпишитесь на рассылку</h2>
+                <p class="main-subscribe-text">
+                    Только полезная информация и никакого спама, честное бойскаутское!
+                </p>
+                <form action="#" method="post">
+                    <input type="email" placeholder="Ваш e-mail" name="mail" id="mail">
+                    <input type="submit" name="subscribe" id="subscribe" value="Подписаться">
+                </form>
+            </section>
+        </main>
+        <footer class="page-footer">
+            <section class="footer-social">
+                <ul class="footer-social-list">
+                    <li class="footer-social-item">
+                        <a href="https://vk.com/htmlacademy" class="active-icon">
+                            <span class="visually-hidden">Вконтакте</span>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="https://t.me/htmlacademy" class="active-icon">
+                            <span class="visually-hidden">Телеграм</span>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a href="https://www.youtube.com/user/htmlacademyru" class="active-icon">
+                            <span class="visually-hidden">Ютуб</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="contacts">
+                    <a href="tel:78128121212" class="contacts-phone">
+                        +7 (812) 812-12-12
+                    </a>
+            </section>
+            <a href="https://htmlacademy.ru/">
+                <img src="#" alt="HTML-академия логотип">
+            </a>
+        </footer>
+    </body>
+</html>
