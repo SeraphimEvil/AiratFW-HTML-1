@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Седона. Поиск гостиницы</title>
+</head>
+<body>
+  <div class="search-settings">
+    <h1 class="popup-title">Поиск гостиницы в Седоне</h1>
+    <a href="index.html" class="close-link">
+      <img src="#" alt="Закрыть" class="Close-popup">
+    </a>
+    <form action="#" method="post" class="">
+      <ul class="search-settings-list">
+        <li class="search-settings-item">
+          <label for="entry" class="entry-date">Дата Заезда</label>
+          <input type="date" id="entry" name="entry">
+        </li>
+        <li class="search-settings-item">
+          <label for="departure" class="departure-date">Дата Выезда</label>
+          <input type="date" id="departure" name="departure">
+        </li>
+        <li class="search-settings-item">
+          <div class="adults-number">
+            <label for="adults-number" class="adults-number-title">Взрослые:</label>
+            <input type="text" name="adults-number" id="adults-number">
+          </div>
+          <div class="kids-number">
+            <label for="kids-number" class="kids-number-title">Дети:
+              <img src="#" alt="Иконка-пояснение" class="icon-hover-text">
+            </label>
+            <input type="text" name="kids-number" id="kids-number">
+          </div>
+        </li>
+      </ul>
+      <button type="submit" class="button-search button-all">Найти</button>
+    </form>
+  </div>
+</body>
+</html>
