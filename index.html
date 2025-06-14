@@ -3,19 +3,19 @@
 
   <head>
     <meta charset="UTF-8">
-    <link href="styles.css" rel="stylesheet">
+    <link href="styles/styles.css" rel="stylesheet">
     <title>Гостиницы Седоны</title>
   </head>
   <body>
-    <div class="page-shadow">
+    <div class="container">
       <header class="page-header">
-        <a href="#" class="logo-link">
-          <img src="#" alt="Седона логотип">
+        <a class="logo-link">
+          <img src="images/logo.svg" alt="Седона логотип" width="140" height="70">
         </a>
         <nav class="page-navigation">
           <ul class="navigation-list">
             <li class="navigation-item">
-              <a class="navigation-link navigation-link-current" href="#">
+              <a class="navigation-link navigation-link-current">
                 Главная
               </a>
             </li>
@@ -32,7 +32,7 @@
           </ul>
         </nav>
         <nav class="user-navigation">
-          <ul class="navigation-list navigation-user">
+          <ul class="navigation-list">
             <li class="navigation-item">
               <a class="navigation-link" href="#">
                 <span class="visually-hidden">Поиск</span>
@@ -44,19 +44,19 @@
               </a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link button-all" href="#">
-                Хочу сюда
+              <a class="navigation-link header-button" href="#">
+                Хочу сюда!
               </a>
             </li>
           </ul>
         </nav>
       </header>
       <main class="main">
-        <div class="Welcome-block">
-          <img src="#" alt="Welcome to the gorgeous Sedona Because the Grand Canyon sucks" class="welcome-image">
+        <div class="welcome-block">
+          <img src="images/hero-welcome.svg" alt="Welcome to the gorgeous Sedona Because the Grand Canyon sucks" class="welcome-image" width="458" height="352">
         </div>
         <section class="about">
-          <h2 class="about-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
+          <h1 class="about-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
           <p class="about-text">
             Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
           </p>
@@ -64,15 +64,15 @@
         <section class="preferences">
           <h2 class="visually-hidden">Преимущества</h2>
           <ul class="preferences-card-list">
-            <li class="preferences-card-item">
+            <li class="preferences-card-item full-wide">
               <div class="preferences-card">
                 <h3 class="preferences-card-title">Настоящий городок</h3>
                 <p class="preferences-card-description">
                   Седона — не аттракцион для туристов, там течёт своя жизнь
                 </p>
               </div>
-              <div class="preferences-card full-wide">
-                <img src="#" alt="Здание с флагами" class="preferences-image">
+              <div class="preferences-card">
+                <img src="images/preferences-photo-1.jpg" alt="Здание с флагами" class="preferences-image" width="800" height="385">
               </div>
             </li>
             <li class="preferences-card-item">
@@ -95,9 +95,9 @@
                 Большинство едет в Гранд Каньон и толпится там
               </p>
             </li>
-            <li class="preferences-card-item">
-              <div class="preferences-card full-wide">
-                <img src="#" alt="Каньон пейзаж" class="preferences-image">
+            <li class="preferences-card-item full-wide">
+              <div class="preferences-card">
+                <img src="images/preferences-photo-2.jpg" alt="Каньон пейзаж" class="preferences-image" width="800" height="385">
               </div>
               <div class="preferences-card">
                 <h3 class="preferences-card-title">Там есть мост дьявола</h3>
@@ -117,7 +117,7 @@
           </div>
           <ul class="preferences-general-card-list">
             <li class="preferences-general-card-item">
-              <h3 class="preferences-general-card">Жильё</h3>
+              <h3 class="preferences-general-card-title">Жильё</h3>
               <p class="preferences-general-card-description">
                 Рекомендуем пожить в настоящем мотеле, всё как в кино!
               </p>
@@ -129,7 +129,7 @@
               </p>
             </li>
             <li class="preferences-general-card-item">
-              <h3 class="preferences-general-card-">Сувениры</h3>
+              <h3 class="preferences-general-card-title">Сувениры</h3>
               <p class="preferences-general-card-description">
                 Не только китайского, но и настоящего местного производства!
               </p>
@@ -140,7 +140,7 @@
           <p class="popup-link-text">
             Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне
           </p>
-          <a class="button-hotels-search button-all" href="popup.html">ПОИСК ГОСТИНИЦЫ В седоне</a>
+          <a class="button-hotels-search button-all" href="popup.html">Поиск гостиницы в Седоне</a>
         </section>
         <section class="subscribe">
           <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
@@ -175,11 +175,11 @@
             </li>
           </ul>
         </section>
-          <a href="tel:78128121212" class="contacts-phone">
-            +7 (812) 812-12-12
-          </a>
+        <a href="tel:78128121212" class="contacts-phone">
+          +7 (812) 812-12-12
+        </a>
         <a href="https://htmlacademy.ru/">
-          <img src="#" alt="HTML-академия логотип">
+          <span class="visually-hidden">Логотип HTML-академии</span>
         </a>
       </footer>
     </div>

@@ -1,0 +1,341 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url(../fonts/ptsans-400.woff2);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url(../fonts/ptsans-700.woff2);
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #F2F2F2;
+  color: #333333;
+}
+
+.container {
+  background-color: #FFFFFF;
+}
+
+.page-header {
+  color: #000000;
+}
+
+.navigation-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+}
+
+.header-button {
+  background-color: #756157;
+  border-radius: 4px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  }
+
+.welcome-block {
+  background-color: #000000;
+  background-image: url(../images/hero-divider.png), url(../images/hero-background.jpg);
+  background-repeat: no-repeat;
+  background-position: left bottom, left top;
+  background-size: 100% auto, cover;
+}
+
+.about-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about-text {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.preferences-card-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.preferences-card-description, .preferences-card-title {
+  text-align: center;
+}
+
+.preferences-card-item {
+  background-color: #83B3D31F;
+}
+
+.preferences-card-item:nth-child(odd) {
+  background-color: #83B3D333;
+}
+
+.full-wide:nth-child(n) {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.preferences-general-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.preferences-general-title, .preferences-general-text {
+  text-align: center;
+}
+
+.preferences-general-card-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.preferences-general-card-description, .preferences-general-card-title {
+  text-align: center;
+}
+
+.preferences-general-card-item:nth-child(odd) {
+  background-color: #83B3D31F;
+}
+
+.popup-link {
+  text-align: center;
+}
+
+.popup-link-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.popup-link-text {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.button-hotels-search {
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+  background-color: #756157;
+  border-radius: 4px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.subscribe {
+  background-image: url(../images/subscribe-background.jpg);
+  background-position: left top;
+  background-size: cover;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.subscribe-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subscribe-text {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.subscribe-special {
+  background-image: none;
+  background-color: #FFFFFF;
+  color: #333333;
+}
+
+.subscribe-special h2 {
+  color: #000000;
+}
+
+
+
+.email-input {
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  line-height: 24px;
+  color: #000000;
+}
+
+.email-submit {
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+
+.filters {
+  background-color: #000000;
+  background-image: url(../images/filters-background.jpg);
+  background-position: left top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+}
+
+.filters-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+}
+
+.breadcrumbs-item {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.filters-group .filters-title {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.control-input-text {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.filters-range-input {
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  line-height: 24px;
+  color: #000000;
+}
+
+.button-apply {
+  background-color: #82B3D3;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.button-reset {
+  background-color: none;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.hotels-find {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.viewing-order {
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  line-height: 24px;
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.product-card-item a {
+  text-decoration: none;
+}
+
+.product-card-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.prodact-card-type {
+  font-size: inherit;
+  text-align: inherit;
+  color: inherit;
+}
+
+.prodact-card-price {
+  font-size: inherit;
+  text-align: inherit;
+  color: inherit;
+}
+
+.product-card-link {
+  background-color: #756157;
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.button-favorite-add {
+  background-color: #82B3D3;
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.button-favorite-added {
+  background-color: #7DB54F;
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.product-card-rating {
+  font-size: 16px;
+  text-align: 20px;
+  text-transform: uppercase;
+}
