@@ -115,10 +115,14 @@
             <fieldset class="filters-group">
               <legend class="filters-title">Стоимость, ₽:</legend>
               <div class="filters-range">
-                <label for="from" class="range-input-label">От</label>
-                <input type="text" name="from" id="from" value="0" class="filters-range-input">
-                <label for="to" class="range-input-label">До</label>
-                <input type="text" name="to" id="to" value="9000" class="filters-range-input">
+                <div class="filters-range-from">
+                  <label for="from" class="range-input-label">От</label>
+                  <input type="text" name="from" id="from" value="0" class="filters-range-input">
+                </div>
+                <div class="filters-range-to">
+                  <label for="to" class="range-input-label">До</label>
+                  <input type="text" name="to" id="to" value="9000" class="filters-range-input">
+                </div>
               </div>
             </fieldset>
             <div class="filters-buttons">
@@ -151,7 +155,7 @@
           <ul class="product-card-list">
             <li class="product-card-item">
               <a href="#" class="product-card-link">
-                <img src="images/amara-resort.jpg" alt="Amara Resort & Spa" class="product-card-iamge" width="300" height="212">
+                <img src="images/amara-resort.jpg" alt="Amara Resort & Spa" class="product-card-image" width="300" height="212">
                 <h3 class="product-card-title">Amara Resort & Spa</h3>
               </a>
               <p class="prodact-card-type">Гостиница</p>
@@ -165,7 +169,7 @@
             </li>
             <li class="product-card-item">
               <a href="#" class="product-card-link">
-                <img src="images/villas-at-poco-diablo.jpg" alt="Villas at Poco Diablo" class="product-card-iamge" width="300" height="212">
+                <img src="images/villas-at-poco-diablo.jpg" alt="Villas at Poco Diablo" class="product-card-image" width="300" height="212">
                 <h3 class="product-card-title">Villas at Poco Diablo</h3>
               </a>
               <p class="prodact-card-type">Гостиница</p>
@@ -179,7 +183,7 @@
             </li>
             <li class="product-card-item">
               <a href="#" class="product-card-link">
-                <img src="images/desert-quili-inn.jpg" alt="Desert Quail Inn" class="product-card-iamge" width="300" height="212">
+                <img src="images/desert-quili-inn.jpg" alt="Desert Quail Inn" class="product-card-image" width="300" height="212">
                 <h3 class="product-card-title">Desert Quail Inn</h3>
               </a>
               <p class="prodact-card-type">Гостиница</p>
@@ -193,7 +197,7 @@
             </li>
             <li class="product-card-item">
               <a href="#" class="product-card-link">
-                <img src="images/greentree-inn.jpg" alt="GreenTree Inn" class="product-card-iamge" width="300" height="212">
+                <img src="images/greentree-inn.jpg" alt="GreenTree Inn" class="product-card-image" width="300" height="212">
                 <h3 class="product-card-title">GreenTree Inn</h3>
               </a>
               <p class="prodact-card-type">Гостиница</p>
@@ -206,13 +210,33 @@
               <div class="product-card-rating">Рейтинг: <span class="product-card-rating-number">5,0</span></div>
             </li>
           </ul>
+          <ul class="pagination">
+            <li class="pagination-item pagination-item-current">
+              <a href="#" class="pagination-link pagination-link-current">1</a>
+            </li>
+            <li class="pagination-item">
+              <a href="#" class="pagination-link">2</a>
+            </li>
+            <li class="pagination-item">
+              <a href="#" class="pagination-link">3</a>
+            </li>
+            <li class="pagination-item">
+              <a href="#" class="pagination-link">4</a>
+            </li>
+            <li class="pagination-item pagination-item-dots">
+              <span class="pagination-dots">...</span>
+            </li>
+            <li class="pagination-item">
+              <a href="#" class="pagination-link">10</a>
+            </li>
+          </ul>
         </div>
         <section class="subscribe subscribe-special">
           <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
           <p class="subscribe-text">
             Только полезная информация и никакого спама, честное бойскаутское!
           </p>
-          <form action="#" method="post">
+          <form action="#" method="post" class="email-form">
             <label for="mail" class="visually-hidden">Почта</label>
             <input type="email" placeholder="Ваш e-mail" name="mail" id="mail" class="email-input">
             <button type="submit" name="subscribe" id="subscribe" class="email-submit">Подписаться</button>
